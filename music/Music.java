@@ -34,7 +34,7 @@ public class Music
         System.out.println("Add a Song\n");
         SONG = SCANNER.nextLine();
 
-        SONG_LIST.put(SONG, "Song Details:\n");
+        SONG_LIST.put(SONG, "Song Details:");
         SONG_ITER.add(SONG);
 
         System.out.printf("Song: %s added to the Queue\n", SONG);
@@ -45,7 +45,7 @@ public class Music
 
     public static final void SONG_ORDER()
     {
-        System.out.println("Songs in Order:\n");
+        System.out.println("Songs in Order:");
         for(String S : SONG_ITER)
         {
             System.out.println(S);
