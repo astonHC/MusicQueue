@@ -105,6 +105,10 @@ public class Music
         {
             EX.getMessage();
             SCANNER.nextLine();
+        }
+
+        finally
+        {
             DISPLAY_MENU();
         }
     }
